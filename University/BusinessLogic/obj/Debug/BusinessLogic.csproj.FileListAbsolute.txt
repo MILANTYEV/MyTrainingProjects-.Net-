@@ -1,0 +1,14 @@
+D:\university\Ларин\University\BusinessLogic\bin\Debug\BusinessLogic.exe.config
+D:\university\Ларин\University\BusinessLogic\bin\Debug\BusinessLogic.exe
+D:\university\Ларин\University\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\university\Ларин\University\BusinessLogic\bin\Debug\DataAcess.exe
+D:\university\Ларин\University\BusinessLogic\bin\Debug\Entitites.dll
+D:\university\Ларин\University\BusinessLogic\bin\Debug\EntityFramework.dll
+D:\university\Ларин\University\BusinessLogic\bin\Debug\DataAcess.pdb
+D:\university\Ларин\University\BusinessLogic\bin\Debug\Entitites.pdb
+D:\university\Ларин\University\BusinessLogic\bin\Debug\EntityFramework.xml
+D:\university\Ларин\University\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+D:\university\Ларин\University\BusinessLogic\obj\Debug\BusinessLogic.exe
+D:\university\Ларин\University\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\university\Ларин\University\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\university\Ларин\University\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml

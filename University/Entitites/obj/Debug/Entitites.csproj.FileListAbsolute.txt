@@ -1,0 +1,10 @@
+D:\university\Ларин\University\Entitites\obj\Debug\Entitites.csprojResolveAssemblyReference.cache
+D:\university\Ларин\University\Entitites\bin\Debug\Entitites.dll.config
+D:\university\Ларин\University\Entitites\bin\Debug\Entitites.dll
+D:\university\Ларин\University\Entitites\bin\Debug\Entitites.pdb
+D:\university\Ларин\University\Entitites\bin\Debug\EntityFramework.dll
+D:\university\Ларин\University\Entitites\bin\Debug\EntityFramework.SqlServer.dll
+D:\university\Ларин\University\Entitites\bin\Debug\EntityFramework.xml
+D:\university\Ларин\University\Entitites\bin\Debug\EntityFramework.SqlServer.xml
+D:\university\Ларин\University\Entitites\obj\Debug\Entitites.dll
+D:\university\Ларин\University\Entitites\obj\Debug\Entitites.pdb

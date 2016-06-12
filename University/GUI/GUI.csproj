@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{48ECC0EC-5D58-4442-ABDB-989EA2FE21F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddOrEditDepartamentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrEditDepartamentForm.Designer.cs">
+      <DependentUpon>AddOrEditDepartamentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrEditFacultyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrEditFacultyForm.Designer.cs">
+      <DependentUpon>AddOrEditFacultyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrEditGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrEditGroupForm.Designer.cs">
+      <DependentUpon>AddOrEditGroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrEditStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrEditStudentForm.Designer.cs">
+      <DependentUpon>AddOrEditStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepartamentsActions.cs" />
+    <Compile Include="FacultiesActions.cs" />
+    <Compile Include="GroupsActions.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentActions.cs" />
+    <Compile Include="StudentAttendanceChartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentAttendanceChartForm.Designer.cs">
+      <DependentUpon>StudentAttendanceChartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentProgressChartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentProgressChartForm.Designer.cs">
+      <DependentUpon>StudentProgressChartForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddOrEditDepartamentForm.resx">
+      <DependentUpon>AddOrEditDepartamentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrEditFacultyForm.resx">
+      <DependentUpon>AddOrEditFacultyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrEditGroupForm.resx">
+      <DependentUpon>AddOrEditGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrEditStudentForm.resx">
+      <DependentUpon>AddOrEditStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="StudentAttendanceChartForm.resx">
+      <DependentUpon>StudentAttendanceChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentProgressChartForm.resx">
+      <DependentUpon>StudentProgressChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
+      <Project>{3c8560f6-7332-42fc-b438-594953873f00}</Project>
+      <Name>BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entitites\Entitites.csproj">
+      <Project>{e160d92b-e0a6-4703-98a7-6c4a522f365f}</Project>
+      <Name>Entitites</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

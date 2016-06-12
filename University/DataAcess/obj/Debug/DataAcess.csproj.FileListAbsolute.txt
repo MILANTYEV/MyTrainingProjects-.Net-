@@ -1,0 +1,12 @@
+D:\university\Ларин\University\DataAcess\bin\Debug\DataAcess.exe.config
+D:\university\Ларин\University\DataAcess\obj\Debug\DataAcess.csprojResolveAssemblyReference.cache
+D:\university\Ларин\University\DataAcess\bin\Debug\DataAcess.exe
+D:\university\Ларин\University\DataAcess\bin\Debug\DataAcess.pdb
+D:\university\Ларин\University\DataAcess\bin\Debug\Entitites.dll
+D:\university\Ларин\University\DataAcess\bin\Debug\EntityFramework.dll
+D:\university\Ларин\University\DataAcess\bin\Debug\EntityFramework.SqlServer.dll
+D:\university\Ларин\University\DataAcess\bin\Debug\Entitites.pdb
+D:\university\Ларин\University\DataAcess\bin\Debug\EntityFramework.xml
+D:\university\Ларин\University\DataAcess\bin\Debug\EntityFramework.SqlServer.xml
+D:\university\Ларин\University\DataAcess\obj\Debug\DataAcess.exe
+D:\university\Ларин\University\DataAcess\obj\Debug\DataAcess.pdb

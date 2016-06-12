@@ -1,0 +1,14 @@
+D:\university\Ларин\University\DataAcessTest\bin\Debug\DataAcessTest.dll.config
+D:\university\Ларин\University\DataAcessTest\bin\Debug\DataAcessTest.dll
+D:\university\Ларин\University\DataAcessTest\bin\Debug\DataAcessTest.pdb
+D:\university\Ларин\University\DataAcessTest\bin\Debug\DataAcess.exe
+D:\university\Ларин\University\DataAcessTest\bin\Debug\Entitites.dll
+D:\university\Ларин\University\DataAcessTest\bin\Debug\EntityFramework.dll
+D:\university\Ларин\University\DataAcessTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\university\Ларин\University\DataAcessTest\bin\Debug\DataAcess.pdb
+D:\university\Ларин\University\DataAcessTest\bin\Debug\Entitites.pdb
+D:\university\Ларин\University\DataAcessTest\bin\Debug\EntityFramework.xml
+D:\university\Ларин\University\DataAcessTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\university\Ларин\University\DataAcessTest\obj\Debug\DataAcessTest.csprojResolveAssemblyReference.cache
+D:\university\Ларин\University\DataAcessTest\obj\Debug\DataAcessTest.dll
+D:\university\Ларин\University\DataAcessTest\obj\Debug\DataAcessTest.pdb
